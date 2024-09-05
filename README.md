@@ -10,7 +10,7 @@ This the current status of the project ...
 The project fails to function properly in ...
 
 ## References
-* [Build an XOR gate from AND/NOT](https://electronics.stackexchange.com/questions/487529/build-an-xor-gate-from-and-not)
+* [How does shift register work](http://www.cburch.com/logisim/docs/2.3.0/libs/mem/shiftreg.html)
 * [Some other link](https://stackoverflow.com)
 
 ## Generative AI Use
