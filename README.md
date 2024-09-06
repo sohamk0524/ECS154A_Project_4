@@ -1,6 +1,6 @@
 # Project 4 README
 
-Student 1: Full Name 1 (123456789)
+Student 1: Soham Kolhatkar 920599141
 Student 2: Full Name 2 (123456798)
 
 ## Project Status
