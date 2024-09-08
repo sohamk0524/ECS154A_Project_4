@@ -4289,6 +4289,11 @@
       <a name="label" val="SER_IN"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(490,600)" name="Tunnel">
+      <a name="label" val="FRAME_OUT"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="width" val="12"/>
+    </comp>
     <comp lib="0" loc="(490,90)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SER_OUT"/>
@@ -4312,9 +4317,24 @@
       <a name="label" val="SER_IN"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(540,480)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="ARBL"/>
+=======
+    <comp lib="0" loc="(590,660)" name="Tunnel">
+      <a name="label" val="BITCMP"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(730,500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BITCMP"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(810,530)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="ENA"/>
+>>>>>>> Stashed changes
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(540,500)" name="Tunnel">
@@ -4380,6 +4400,7 @@
       <a name="label" val="SRO_OUT"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(790,650)" name="Tunnel">
       <a name="label" val="FRAME_OUT"/>
       <a name="labelfont" val="SansSerif bold 12"/>
@@ -4392,6 +4413,8 @@
     <comp lib="1" loc="(660,800)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
+=======
+>>>>>>> Stashed changes
     <comp lib="8" loc="(1015,320)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="observer NOTIDLE is "/>
@@ -4425,6 +4448,7 @@
     <wire from="(320,660)" to="(330,660)"/>
     <wire from="(320,680)" to="(330,680)"/>
     <wire from="(350,240)" to="(350,260)"/>
+<<<<<<< Updated upstream
     <wire from="(360,430)" to="(380,430)"/>
     <wire from="(490,120)" to="(510,120)"/>
     <wire from="(490,90)" to="(510,90)"/>
@@ -4444,6 +4468,30 @@
     <wire from="(660,510)" to="(660,530)"/>
     <wire from="(660,530)" to="(670,530)"/>
     <wire from="(680,700)" to="(680,720)"/>
+=======
+    <wire from="(400,500)" to="(410,500)"/>
+    <wire from="(410,480)" to="(410,500)"/>
+    <wire from="(420,730)" to="(430,730)"/>
+    <wire from="(430,710)" to="(430,730)"/>
+    <wire from="(440,480)" to="(440,500)"/>
+    <wire from="(440,500)" to="(450,500)"/>
+    <wire from="(470,600)" to="(470,630)"/>
+    <wire from="(470,600)" to="(490,600)"/>
+    <wire from="(470,710)" to="(470,730)"/>
+    <wire from="(490,120)" to="(510,120)"/>
+    <wire from="(490,90)" to="(510,90)"/>
+    <wire from="(580,660)" to="(590,660)"/>
+    <wire from="(730,500)" to="(740,500)"/>
+    <wire from="(810,530)" to="(820,530)"/>
+    <wire from="(810,650)" to="(830,650)"/>
+    <wire from="(810,670)" to="(830,670)"/>
+    <wire from="(820,510)" to="(820,530)"/>
+    <wire from="(850,510)" to="(850,530)"/>
+    <wire from="(850,530)" to="(860,530)"/>
+    <wire from="(890,720)" to="(900,720)"/>
+    <wire from="(900,700)" to="(900,720)"/>
+    <wire from="(940,700)" to="(940,720)"/>
+>>>>>>> Stashed changes
   </circuit>
   <circuit name="VPWBRX">
     <a name="appearance" val="custom"/>
@@ -4715,6 +4763,7 @@
     <comp lib="1" loc="(1010,370)" name="AND Gate">
       <a name="negate1" val="true"/>
     </comp>
+<<<<<<< Updated upstream
     <comp loc="(1140,450)" name="VPWBFrameQueue"/>
     <comp loc="(310,450)" name="VPWBObserver"/>
     <comp loc="(720,450)" name="VPWBSRI"/>
@@ -4724,6 +4773,24 @@
     <wire from="(1140,470)" to="(1190,470)"/>
     <wire from="(1140,490)" to="(1180,490)"/>
     <wire from="(170,500)" to="(170,510)"/>
+=======
+    <comp lib="8" loc="(560,315)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="enqueue"/>
+    </comp>
+    <comp lib="8" loc="(570,570)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="hello"/>
+    </comp>
+    <comp lib="8" loc="(95,410)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="hello"/>
+    </comp>
+    <comp loc="(460,440)" name="VPWBSRI"/>
+    <comp loc="(920,300)" name="VPWBFrameQueue"/>
+    <comp loc="(920,550)" name="VPWBObserver"/>
+    <wire from="(150,640)" to="(210,640)"/>
+>>>>>>> Stashed changes
     <wire from="(180,100)" to="(200,100)"/>
     <wire from="(180,150)" to="(200,150)"/>
     <wire from="(180,180)" to="(200,180)"/>
@@ -6010,6 +6077,10 @@
       <a name="max" val="0xd"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="8" loc="(730,85)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="13 registers but 12 bits, making space for shifting, PARAIN for 12 bits, 13th bit SER_OUT"/>
+    </comp>
     <wire from="(100,550)" to="(110,550)"/>
     <wire from="(140,560)" to="(190,560)"/>
     <wire from="(160,110)" to="(170,110)"/>
@@ -6528,6 +6599,10 @@
     </comp>
     <comp lib="4" loc="(810,430)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="8" loc="(1047,317)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="IN BIT1/BIT2 STAGE AND ENTERING IDLE"/>
     </comp>
     <wire from="(100,540)" to="(140,540)"/>
     <wire from="(100,590)" to="(140,590)"/>
