@@ -4169,6 +4169,11 @@
       <circ-port dir="out" pin="180,210" x="50" y="120"/>
       <circ-port dir="out" pin="510,90" x="270" y="60"/>
     </appear>
+    <comp lib="0" loc="(1050,650)" name="Tunnel">
+      <a name="label" val="FRAME_OUT"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="width" val="12"/>
+    </comp>
     <comp lib="0" loc="(180,100)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="FRAME_IN"/>
@@ -4218,6 +4223,11 @@
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(310,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SER_IN"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(350,240)" name="Tunnel">
@@ -4274,6 +4284,10 @@
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="0" loc="(580,640)" name="Tunnel">
+      <a name="label" val="SRO_OUT"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="0" loc="(810,530)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
@@ -4284,6 +4298,11 @@
       <a name="label" val="FRAME_IN"/>
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="width" val="12"/>
+    </comp>
+    <comp lib="0" loc="(810,670)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="WRITE"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(860,530)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -4300,6 +4319,26 @@
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(960,420)" name="Tunnel">
+      <a name="label" val="SER_OUT"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(960,440)" name="Tunnel">
+      <a name="label" val="SRO_OUT"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="8" loc="(1018,320)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="observer NOTIDLE is "/>
+    </comp>
+    <comp lib="8" loc="(1095,210)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="whatever goes into DW should go into IDLE"/>
+    </comp>
+    <comp lib="8" loc="(849,76)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="queue EMPTY and transmitter IDLE"/>
+    </comp>
     <comp loc="(1050,650)" name="VPWBFrameQueue"/>
     <comp loc="(550,430)" name="VPWBObserver"/>
     <comp loc="(580,640)" name="VPWBSRO"/>
@@ -4309,6 +4348,7 @@
     <wire from="(180,180)" to="(200,180)"/>
     <wire from="(180,210)" to="(200,210)"/>
     <wire from="(300,240)" to="(300,260)"/>
+    <wire from="(310,450)" to="(330,450)"/>
     <wire from="(350,240)" to="(350,260)"/>
     <wire from="(400,500)" to="(410,500)"/>
     <wire from="(410,480)" to="(410,500)"/>
@@ -4321,6 +4361,7 @@
     <wire from="(490,90)" to="(510,90)"/>
     <wire from="(810,530)" to="(820,530)"/>
     <wire from="(810,650)" to="(830,650)"/>
+    <wire from="(810,670)" to="(830,670)"/>
     <wire from="(820,510)" to="(820,530)"/>
     <wire from="(850,510)" to="(850,530)"/>
     <wire from="(850,530)" to="(860,530)"/>
